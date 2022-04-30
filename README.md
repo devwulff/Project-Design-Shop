@@ -1,6 +1,6 @@
 Project - Design-Shop
 
-- ein Bewertetes Projekt im Supercode Bootcamp -
+- ein Bewertetes Projekt im Supercode Bootcamp
 
 Verwendete Technologien: HTML, CSS und JS
 
