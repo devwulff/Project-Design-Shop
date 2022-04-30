@@ -229,12 +229,43 @@ header nav ul li a {
 
     /* ######################### HEADER ######################## */
 
-    header nav ul {
+    header>nav>ul:nth-of-type(1) {
         display: none;
     }
 
     header nav div {
         display: inline-block;
+    }
+
+    .slidemenu {
+        position: absolute;
+        width: 50%;
+        height: 30%;
+        top: 12vh;
+        right: 100%;
+        bottom: 12vh;
+        left: -100%;
+        background-color: #323A45;
+        color: #fff;
+        border-radius: 10px;
+        opacity: 0.9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all .6s linear;
+    }
+
+    .slidemenu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        list-style: none;
+    }
+
+    .slidemenu ul li a {
+        color: #fff;
+        font-size: 1.8rem;
     }
 
     .mobilemenu {
@@ -247,6 +278,11 @@ header nav ul li a {
         margin-right: auto;
         border-radius: 5px;
         transition: border-radius .5s;
+    }
+
+    .slidemenushow {
+        left: 0;
+        right: 0;
     }
 
     .line {
