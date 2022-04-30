@@ -13,6 +13,7 @@ html {
 
 body {
     padding: 0 10% 0 10%;
+    margin: 0 auto;
     max-width: 1440px;
     font-size: 1.6rem;
     color: #323A45
@@ -223,7 +224,7 @@ header nav ul li a {
 
     body {
         max-width: 576px;
-        padding: 0 5%;
+        padding: 0 10%;
     }
 
     /* ######################### HEADER ######################## */
