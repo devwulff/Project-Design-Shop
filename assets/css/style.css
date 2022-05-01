@@ -239,7 +239,7 @@ header nav ul li a {
 
     .slidemenu {
         position: absolute;
-        width: 50%;
+        width: 55%;
         height: 30%;
         top: 12vh;
         right: 100%;
@@ -260,12 +260,13 @@ header nav ul li a {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        text-align: center;
         list-style: none;
     }
 
     .slidemenu ul li a {
         color: #fff;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .mobilemenu {
